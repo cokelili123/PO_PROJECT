@@ -32,3 +32,13 @@ class TestNetwork:
         self.network_page.click_network_first()
         # 点击2G
         self.network_page.click_2G()
+
+  def test_network_4g(self):
+        # 点击更多
+        self.network_page.click_more()
+        # 点击移动网络
+        self.network_page.click_move_network()
+        # 点击首选类型网络
+        self.network_page.click_network_first()
+        # 点击2G
+        self.network_page.click_4G()
