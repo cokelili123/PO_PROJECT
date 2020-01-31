@@ -60,3 +60,7 @@ class TestNetwork:
         self.network_page.click_network_first()
         # 点击2G
         self.network_page.click_6G()
+ s
+
+# 2
+
