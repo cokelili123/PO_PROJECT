@@ -26,5 +26,16 @@ class TestDisplay:
       # 点击返回
       self.display_page.click_back()
 
+     def test_display_search6(self):
+
+      # 点击显示
+      self.display_page.click_display()
+      # 点击放大镜
+      self.display_page.click_search()
+      # 输入hello
+      self.display_page.input_text("hello")
+      # 点击返回
+      self.display_page.click_back()
+
 
 

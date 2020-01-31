@@ -1,4 +1,4 @@
-from time import time
+﻿from time import time
 
 from appium import webdriver
 from base.base_driver import init_driver
@@ -42,3 +42,12 @@ class TestNetwork:
         self.network_page.click_network_first()
         # 点击2G
         self.network_page.click_4G()
+  def test_network_5g(self):
+        # 点击更多
+        self.network_page.click_more()
+        # 点击移动网络
+        self.network_page.click_move_network()
+        # 点击首选类型网络
+        self.network_page.click_network_first()
+        # 点击2G
+        self.network_page.click_5G()
