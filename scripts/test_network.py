@@ -51,7 +51,7 @@ class TestNetwork:
         self.network_page.click_network_first()
         # 点击2G
         self.network_page.click_5G()
-  def test_network_6g(self):
+  def test_network_9g(self):
         # 点击更多
         self.network_page.click_more()
         # 点击移动网络
@@ -60,7 +60,7 @@ class TestNetwork:
         self.network_page.click_network_first()
         # 点击2G
         self.network_page.click_6G()
- s
+ 
 
 # 2
 
